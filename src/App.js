@@ -14,7 +14,7 @@ function App() {
 
       <BannerMain videoTitle={dadosIniciais.categorias[5].videos[0].titulo}
         url={dadosIniciais.categorias[5].videos[0].url}
-        videoDescription={'Teste'}
+        videoDescription={'Aprenda com o mestre Akita do canal "Akitando" como realmente aprender ao invés de sempre se programar e nunca executar.'}
       />
 
       <Carousel ignoreFirstVideo

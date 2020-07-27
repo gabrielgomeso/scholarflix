@@ -1,75 +1,67 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Português",
+      "link": "",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "O que é a Lingua Portuguesa?",
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_portuguesa"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Português do Zero",
+          "url": "https://www.youtube.com/watch?v=ZJn5jjZM5ss"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Português para o Enem 2020",
+          "url": "https://www.youtube.com/watch?v=hrziAct5CZw"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Interpretação e Compreensão de Textos",
+          "url": "https://www.youtube.com/watch?v=W3XrpIRTgzA"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Variação Linguística",
+          "url": "https://www.youtube.com/watch?v=6fBOVygtNoU"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "5 dicas de Interpretação de Textos",
+          "url": "https://www.youtube.com/watch?v=lkRTsEnv3YI"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "O que mais cai em Português no Enem?",
+          "url": "https://www.youtube.com/watch?v=Jn3f8Qze5Vw"
+        }
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Matemática",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "O que é Matemática?",
+        "url": "https://pt.wikipedia.org/wiki/Matem%C3%A1tica"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Tudo de Matemática Básica",
+          "url": "https://www.youtube.com/watch?v=ddZHkCUcYRM"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Como aprendi matemática para o Enem?",
+          "url": "https://www.youtube.com/watch?v=kIX5YkNnTnU"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Equação de Primeiro Grau",
+          "url": "https://www.youtube.com/watch?v=3LzFDVj0M7U"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Como ser um gênio da matemática",
+          "url": "https://www.youtube.com/watch?v=nrLZ6hwb0VM"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Como aprender matemática?",
+          "url": "https://www.youtube.com/watch?v=qBw9prfEbSY"
         }
       ]
     },
