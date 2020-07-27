@@ -11,7 +11,6 @@ export const Title = styled.h3`
   background: red;
   line-height: 1;
   border-radius: 4px;
-
   @media (max-width: 800px) {
     font-size: 18px;
     padding: 10px;
@@ -34,6 +33,19 @@ export const ExtraLink = styled.a`
 `;
 
 export const VideoCardList = styled.ul`
+  &::-webkit-scrollbar-track {
+    background-color: #414141;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar {
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: black;
+  }
   margin: 0;
   padding-left: 0;
   padding-bottom: 32px;

@@ -31,30 +31,3 @@ export const VideoCardContainer = styled.a`
 
 
 `;
-
-export const VideoCardList = styled.ul`
-&::-webkit-scrollbar-track {
-  background-color: #414141;
-  border-radius: 5px;
-}
-
-&::-webkit-scrollbar {
-  height: 12px;
-}
-
-&::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background: ${props => props.color};
-}
-margin: 0;
-padding-left: 0;
-padding-bottom: 32px;
-list-style: none;
-display: flex;
-overflow-x: auto;
-flex-direction: row;
-
-li {
-  margin-right: 16px;
-}
-`;
