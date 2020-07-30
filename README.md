@@ -1,5 +1,5 @@
 # :copyright: ScholarFlix
-:arrow_right_hook: Aprenda **tudo**, de graça, com o Youtube. [Site](https://scholarflix.vercel.app/)
+:arrow_right_hook: Aprenda **tudo**, de graça. [Site](https://scholarflix.vercel.app/)
 
 <p align="center">
   <img alt="Logo do projeto" width="150px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" />
