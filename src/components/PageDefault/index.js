@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import styled from 'styled-components';
 import Menu from '../Menu';
@@ -10,7 +11,6 @@ const Main = styled.main`
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
-
 `;
 
 function PageDefault({ children }) {
