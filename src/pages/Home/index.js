@@ -1,21 +1,17 @@
 /* eslint-disable linebreak-style */
 import React, { useEffect, useState } from 'react';
 import PageDefault from '../../components/PageDefault';
-// import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import categoriasRepository from '../../repositories/categorias';
 
-// the main color is #415ED1
-
 function Home() {
-  const [dadosIniciais, setDadosIniciais] = useState({
-    categorias: [],
-  });
+  const [dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
+        console.log(categoriasComVideos);
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
@@ -27,25 +23,28 @@ function Home() {
     <PageDefault>
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
-      {dadosIniciais.length >= 1 && (
-        <>
-          <BannerMain
-            videoTitle={dadosIniciais[5].videos[0].titulo}
-            url={dadosIniciais[5].videos[1].url}
-            videoDescription={'Aprenda com o mestre Akita do canal "Akitando" como realmente aprender ao invés de sempre se programar e nunca executar.'}
-          />
-        </>
-      )}
-      {/*
-             {
-        dadosIniciais.categorias.map((categoria, id) => (
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[5].videos[1].titulo}
+                url={dadosIniciais[5].videos[1].url}
+                videoDescription={dadosIniciais[5].videos[1].description}
+              />
+              <Carousel
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
+        return (
           <Carousel
-            key={id}
-            ignoreFirstVideo
+            key={categoria.id}
             category={categoria}
           />
-        ))
-      }  */}
+        );
+      })}
     </PageDefault>
   );
 }

@@ -89,8 +89,8 @@
     {
       "id": 6,
       "categoriaId": 1,
-      "titulo": "5 dicas de Interpretação de Textos",
-      "url": "https://www.youtube.com/watch?v=lkRTsEnv3YI"
+      "titulo": "10 dicas de Português",
+      "url": "https://www.youtube.com/watch?v=tTfkk4-40No"
     },
     {
       "id": 7,
@@ -241,6 +241,84 @@
       "categoriaId": 6,
       "titulo": "Como aprender a programar?",
       "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 32
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 33
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 34
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 35
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 36
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 37
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 38
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaID": 1,
+      "id": 39
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaId": 1,
+      "id": 40
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaId": 1,
+      "id": 41
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaId": 1,
+      "id": 42
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaId": 2,
+      "id": 43
+    },
+    {
+      "titulo": "Opinião sobre I.A",
+      "url": "https://www.youtube.com/watch?v=ABXEs47qToU",
+      "categoriaId": 6,
+      "id": 44
     }
   ]
 }

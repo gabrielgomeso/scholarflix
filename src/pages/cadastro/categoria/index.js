@@ -40,7 +40,6 @@ function CadastroCategoria() {
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
-
         setCategorias([
           ...categorias,
           values,
@@ -52,7 +51,6 @@ function CadastroCategoria() {
 
         <FormField
           label="Nome da Categoria"
-          type="text"
           name="nome"
           value={values.nome}
           onChange={handleChange}
@@ -79,9 +77,15 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
             {categoria.titulo}
           </li>
         ))}
