@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import SlickSlider from 'react-slick';
@@ -34,13 +35,13 @@ const Container = styled.ul`
     }
   }
   .slick-prev {
-    left: -35px;
+    left: 0;
     @media (max-width: 800px) {
       visibility: hidden;
     }
   }
   .slick-next {
-    right: -35px;
+    right: 0;
     @media (max-width: 800px) {
       visibility: hidden;
     }
@@ -61,7 +62,6 @@ export const SliderItem = styled.li`
     object-fit: cover;
   }
 `;
-
 
 const Slider = ({ children, categoryColor }) => (
   <Container categoryColor={categoryColor}>

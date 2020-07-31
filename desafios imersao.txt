@@ -1,0 +1,7 @@
+Desafios: 
+1 - cadastro de cateogoria
+2 - página de erro
+3 - iniciar o vídeo se o mouse fica 5s em cima
+4 - mostrar o título do video quando o mouse passa em cima
+5 - loading bonito
+6 - nao deixar enviar video se categoria não existe 
