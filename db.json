@@ -1,21 +1,246 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Front End",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Português",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "A origem da Lingua Portuguesa",
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_portuguesa"
       }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 2,
+      "titulo": "Matemática",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Como surgiu a Matemática",
+        "url": "https://pt.wikipedia.org/wiki/Matem%C3%A1tica"
       }
-    ]
-  }
+    },
+    {
+      "id": 3,
+      "titulo": "História",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "A história da História",
+        "url": "https://pt.wikipedia.org/wiki/Hist%C3%B3ria"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Música",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Quem criou a música?",
+        "url": "https://pt.wikipedia.org/wiki/M%C3%BAsica"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Artes Marciais",
+      "cor": "red",
+      "link_extra": {
+        "text": "O que são Artes Marciais?",
+        "url": "https://pt.wikipedia.org/wiki/Artes_marciais"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Aprenda Tecnologia com Alura!",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Português do Zero",
+      "url": "https://www.youtube.com/watch?v=ZJn5jjZM5ss"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Português para o Enem 2020",
+      "url": "https://www.youtube.com/watch?v=hrziAct5CZw"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Interpretação e Compreensão de Textos",
+      "url": "https://www.youtube.com/watch?v=W3XrpIRTgzA"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Variação Linguística",
+      "url": "https://www.youtube.com/watch?v=6fBOVygtNoU"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "5 dicas de Interpretação de Textos",
+      "url": "https://www.youtube.com/watch?v=lkRTsEnv3YI"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "5 dicas de Interpretação de Textos",
+      "url": "https://www.youtube.com/watch?v=lkRTsEnv3YI"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "O que mais cai em Português no Enem?",
+      "url": "https://www.youtube.com/watch?v=Jn3f8Qze5Vw"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Tudo de Matemática Básica",
+      "url": "https://www.youtube.com/watch?v=ddZHkCUcYRM"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Como aprendi matemática para o Enem?",
+      "url": "https://www.youtube.com/watch?v=kIX5YkNnTnU"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Equação de Primeiro Grau",
+      "url": "https://www.youtube.com/watch?v=3LzFDVj0M7U"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Como ser um gênio da matemática",
+      "url": "https://www.youtube.com/watch?v=nrLZ6hwb0VM"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Como aprender matemática?",
+      "url": "https://www.youtube.com/watch?v=qBw9prfEbSY"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Guerra de Canudos",
+      "url": "https://www.youtube.com/watch?v=f4DT0-gvs6c"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Ditadura Militar",
+      "url": "https://www.youtube.com/watch?v=CRbZwM7fjYM"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "O Império Mongol",
+      "url": "https://www.youtube.com/watch?v=TgI6V_DfXDM"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "A História do Brasil por Bóris Fausto",
+      "url": "https://www.youtube.com/watch?v=pSyE82yRaKU"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "O que estudar para evoluir na música",
+      "url": "https://www.youtube.com/watch?v=l1o9ELLSUzY"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Como aprender música sozinho",
+      "url": "https://www.youtube.com/watch?v=75VAVzQaVX8"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Curso de Teoria Musical",
+      "url": "https://www.youtube.com/watch?v=GJC9zdMG1UQ"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Os 4 níveis de Teoria Musical que você deve aprender!",
+      "url": "https://www.youtube.com/watch?v=bQS2YG0kPr0"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Que Arte Marcial Escolher",
+      "url": "https://www.youtube.com/watch?v=yuKw9L79IwU"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Como Treinar Sozinho",
+      "url": "https://www.youtube.com/watch?v=FfKpQNEx4IE"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "O verdadeiro conceito de artes marciais",
+      "url": "https://www.youtube.com/watch?v=1nuKULAP83o"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "As principais diferenças entre quatro estilos de artes marciais",
+      "url": "https://www.youtube.com/watch?v=uzLpjVanNy4"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Arte Marcial Mortal de Indonésia",
+      "url": "https://www.youtube.com/watch?v=mb6Y7tLovaU"
+    },
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "Aprendendo a aprender",
+      "url": "https://www.youtube.com/watch?v=oUPaJxk6TZ0"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Como estudar melhor?",
+      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Devo fazer Faculdade?",
+      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Qual Framework devo aprender?",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "A mágica do Aprendizado",
+      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Como aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+    }
+  ]
+}
